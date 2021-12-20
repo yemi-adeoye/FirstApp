@@ -4,6 +4,8 @@ from flask import Flask, jsonify, request
 # initialize app
 app = Flask(__name__)
 
+# the greet page
+
 
 @app.get('/greet')
 def index():
